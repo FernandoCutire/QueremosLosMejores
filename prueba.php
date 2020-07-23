@@ -15,7 +15,7 @@ if (isset($_POST["enviado"])) {
 
 ?>
     <form action="" target="_self" method="POST">
-        <h2 class="heading__secondary center-text margin-bottom-medium">Examen de <?php echo $_POST["nombre"] ?></h2>
+        <h2 class="heading__secondary center-text margin-bottom-medium">Examen de <span class="nombre__persona"><?php echo $_POST["nombre"] ?></span></h2>
         <div class="respuestas cedula center-text margin-bottom-medium margin-top-small">
             <a>Cédula: <input class="center-text" type="text" title="C.I.P" size="10" maxlength="20" value="<?php echo $_POST['cedula']; ?>" readonly></a>
         </div>

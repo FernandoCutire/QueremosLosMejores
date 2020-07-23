@@ -199,6 +199,11 @@ li {
   font-weight: 400;
 }
 
+.nombre__persona {
+  color: #333333;
+  font-family: "Roboto", sans-serif
+}
+
 .nota-margen--imagen {
   font-family: "Rowdies", sans-serif;
   margin-top: 1rem;
