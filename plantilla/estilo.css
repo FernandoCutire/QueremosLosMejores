@@ -199,6 +199,11 @@ li {
   font-weight: 400;
 }
 
+.enfasis {
+  color: #333333;
+  font-family: "Roboto", sans-serif 
+}
+
 .nombre__persona {
   color: #333333;
   font-family: "Roboto", sans-serif

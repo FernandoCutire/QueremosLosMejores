@@ -32,7 +32,7 @@ function encabezado()
 				<ul>
 					<li><a href="index.php">Inicio</a></li>
 					<li> <a href="prueba.php">Prueba</a></li>
-					<li> <a href="blog.php">Blog</a></li>
+					<li> <a href="blog.php">Sobre nosotros</a></li>
 					<li><a href="documentacion.php">Documentación</a></li>
 				</ul>
 
