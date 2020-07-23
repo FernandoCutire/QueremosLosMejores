@@ -272,6 +272,11 @@ li {
   color: white;
 }
 
+.botton__de-nuevo {
+  color: #fff;
+  text-decoration: none;
+}
+
 .formulario {
   font-size: 2rem;
   position: relative;
