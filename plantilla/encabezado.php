@@ -23,7 +23,7 @@ function encabezado()
 					</path>
 				</svg>
 				<div class="header__image">
-					<a href="index.php"><img src="imagenes/logo.png" id="header__img"></a>
+					<a href="index.php"><img src="imagenes/logo.png" class="header__img"></a>
 					<p class="nota-margen--imagen">Queremos los mejores</p>
 				</div>
 			</header>

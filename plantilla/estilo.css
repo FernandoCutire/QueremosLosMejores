@@ -83,6 +83,11 @@ body {
   position: relative;
 }
 
+.header svg {
+  animation: moveInBottom 2s ease-out ;
+
+}
+
 .header__title {
   font-size: 1.5rem;
   text-align: center;
@@ -90,12 +95,16 @@ body {
   margin-top: 2.5%;
 }
 
-#header__img {
+.header__img {
   width: 7%;
   position: absolute;
   top: 2%;
   left: 2.5%;
+  transition: all .2s;
+  animation: moveInRight 3s ease-out 0.5s;
+
 }
+
 
 /* NAV ¨*/
 .navigation__nav {
@@ -135,63 +144,23 @@ li {
   color: #436436ff;
 }
 
-#logo {
-  width: 85px;
-  position: absolute;
-  top: 2%;
-  left: 2.5%;
-}
 
-#encabezado {
-  height: 15%;
-  padding: 10px;
-  background-color: #436436;
-  color: white;
-  font-family: "Helvetica";
-  font-size: 1.5em;
-  font-weight: 800;
-}
 
-.barra a {
-  width: 50%;
-  float: left;
-  text-align: center;
-  text-decoration: none;
-  background-color: #e5ece9;
-  color: #436436;
-  font-weight: 700;
-}
 
-.barra a:hover {
-  font-size: 24px;
-}
 
-.barra {
-  height: 2em;
-  background-color: #e5ece9;
-  color: white;
-  font-weight: 700;
-  padding-top: 10px;
-}
-
-.contenido {
-  height: auto;
-  padding: 3px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  padding-bottom: 2.5%;
-  margin-top: 2.5%;
-}
 
 /* IMAGES */
 
 .main-image {
   width: 50%;
+  animation: moveInRight 3s ease-out 0.2s;
+
 }
 
 /* HEADINGS and TEXT */
 
 .heading__primary {
+  animation: moveInLeft 4s ease-out 0.25s;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 6rem;
@@ -219,6 +188,8 @@ li {
   margin: 0 30rem;
   text-align: justify;
   line-height: 4rem;
+  animation: moveInRight 2s ease-out ;
+
 }
 
 .nota-margen {
@@ -372,6 +343,8 @@ li {
   z-index: 0;
   background-color: #94d1beff;
   width: 100%;
+  transition: all .1s;
+
 }
 
 .footer a {
@@ -380,12 +353,15 @@ li {
 }
 
 footer {
+
   padding-top: 5rem;
 }
 
 .footer svg {
   position: relative;
   z-index: 40;
+  animation: moveInRight 2s ease-out 0.2s;
+
 }
 
 /* UTILIDADES */
