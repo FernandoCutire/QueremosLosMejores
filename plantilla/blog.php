@@ -4,7 +4,7 @@ function blog()
 ?>
     <div class="blog">
 
-        <div class="heading__primary margin-bottom-medium">Blog</div>
+        <div class="heading__primary margin-bottom-medium">Sobre nosotros</div>
 
         <div class=" margin-bottom-medium center-text">
             <img src="imagenes/blog-portada.jpg" class="main-image" alt="La psicologia">
